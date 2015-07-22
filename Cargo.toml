@@ -9,6 +9,7 @@ iron = "*"
 router = "*"
 db-key = "0.0.5"
 time = "*"
+modifier = "*"
 
 [dependencies.leveldb]
 git = "https://github.com/skade/leveldb.git"
