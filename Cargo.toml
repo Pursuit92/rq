@@ -1,0 +1,15 @@
+[package]
+name = "rq"
+version = "0.1.0"
+authors = ["Josh Chase <jcjoshuachase@gmail.com>"]
+
+[dependencies]
+rustc-serialize = "*"
+iron = "*"
+router = "*"
+db-key = "0.0.5"
+time = "*"
+
+[dependencies.leveldb]
+git = "https://github.com/skade/leveldb.git"
+
